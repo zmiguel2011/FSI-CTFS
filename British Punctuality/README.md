@@ -2,7 +2,7 @@
  
 #### Exploits created by José Miguel Isidro aka [zmiguel2011](https://github.com/zmiguel2011)
 ## DISCAIMER:
-> This exploit in British Punctuality's CTF in 22/23 due to an honest mistake by the teacher who created the CTF
+> This exploit in British Punctuality's CTF in 22/23 is due to an honest mistake by the teacher who created the CTF.
 > Although this wasn't the intended way to solve the CTF, this is how I managed to solve it. Nevertheless, the intended way to solving is also included in this repository and will explained [here](#intended-way-to-solve-the-ctf-exploitc)).
 
 ### Unintended Way to Solve the CTF (exploit.c)
