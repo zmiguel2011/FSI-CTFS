@@ -6,9 +6,9 @@
 > Although this wasn't the intended way to solve the CTF, this is how I managed to solve it. Nevertheless, the intended way to solving is also included in this repository and will explained [here](#intended-way-to-solve-the-ctf-exploitc)).
 
 ### Unintended Way to Solve the CTF (exploit.c)
-> In [my_script.sh](../FSI-CTFS/British%20Punctuality/my_script.sh) , printenv is vulnerable because of the missing absolute path. It should've been /bin/printenv. This enabled us to write arbitrary code in a 'fake' printenv program created by the user.
+> In [my_script.sh](../British%20Punctuality/my_script.sh) , printenv is vulnerable because of the missing absolute path. It should've been /bin/printenv. This enabled us to write arbitrary code in a 'fake' printenv program created by the user.
 
-> You would have to compile this [program](../FSI-CTFS/British%20Punctuality/exploit.c) with ggc and output the file to "printenv" in the /tmp folder.
+> You would have to compile this [program](../British%20Punctuality/exploit.c) with ggc and output the file to "printenv" in the /tmp folder.
 ```bash
 cd /tmp
 gcc -o printenv exploit.c
@@ -28,7 +28,7 @@ cat /tmp/last_log
 
 ### Intended Way to Solve the CTF (exploit.c)
 
-> Compile this [program](../FSI-CTFS/British%20Punctuality/exploit2.c) with ggc and create shared object in the /tmp folder.
+> Compile this [program](../British%20Punctuality/exploit2.c) with ggc and create shared object in the /tmp folder.
 ```bash
 gcc -c -Wall -Werror -fpic exploit.c
 gcc -shared -o myexploit.so exploit.o
