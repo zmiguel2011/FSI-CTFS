@@ -26,7 +26,7 @@ cat /tmp/last_log
 ```
 
 
-### Intended Way to Solve the CTF (exploit.c)
+### Intended Way to Solve the CTF (exploit2.c)
 
 > Compile this [program](../British%20Punctuality/exploit2.c) with ggc and create shared object in the /tmp folder.
 ```bash
