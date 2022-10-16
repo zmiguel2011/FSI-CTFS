@@ -18,7 +18,7 @@
   * **WooCommerce 5.7.1** - CVE's affecting this WooCommerce version haven't yet been identified nor reported.
   * **Booster for WooCommerce 5.4.3** - Versions up to, and including, 5.4.3, of the Booster for WooCommerce WordPress plugin are **vulnerable to authentication bypass**.
 
-**Flag 1 Identified ->** flag{[CVE-2021-34646](https://nvd.nist.gov/vuln/detail/CVE-2021-34646)}
+**Flag #1 Identified ->** flag{[CVE-2021-34646](https://nvd.nist.gov/vuln/detail/CVE-2021-34646)}
 
 
 #### **Search for an available exploit online**
@@ -153,3 +153,5 @@ for i in range(3): # We need to try multiple timestamps as we don't get the exac
  * **Capture the flag**
 
   ![](imgs/ctf.png)
+
+  **Flag #2 Identified ->** flag{ecbdbe236f3bd5b10d67619470285d43}
