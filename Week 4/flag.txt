@@ -1,0 +1,2 @@
+FLAG#1 - flag{CVE-2021-34646}
+FLAG#2 - flag{ecbdbe236f3bd5b10d67619470285d43}

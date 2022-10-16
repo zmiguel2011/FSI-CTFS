@@ -3,7 +3,7 @@
 #### Exploits created by José Miguel Isidro aka [zmiguel2011](https://github.com/zmiguel2011)
 ## DISCAIMER:
 > This exploit in British Punctuality's CTF in 22/23 is due to an honest mistake by the teacher who created the CTF.
-> Although this wasn't the intended way to solve the CTF, this is how I managed to solve it. Nevertheless, the intended way to solving is also included in this repository and will explained [here](#intended-way-to-solve-the-ctf-exploitc)).
+> Although this wasn't the intended way to solve the CTF, this is how I managed to solve it. Nevertheless, the intended way to solving is also included in this repository and will explained [here](#intended-way-to-solve-the-ctf-exploit2c)).
 
 ### Unintended Way to Solve the CTF (exploit.c)
 > In [my_script.sh](../British%20Punctuality/my_script.sh) , printenv is vulnerable because of the missing absolute path. It should've been /bin/printenv. This enabled us to write arbitrary code in a 'fake' printenv program created by the user.
