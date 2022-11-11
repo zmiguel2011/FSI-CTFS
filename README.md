@@ -5,4 +5,4 @@
 **LABS:** [SeedLabs](https://seedsecuritylabs.org/)
 
 **CONTENTS:**
-- CTFs solution and occasionally a report to help understand the solution
+- CTFs' solutions and reports to help understand the solution
