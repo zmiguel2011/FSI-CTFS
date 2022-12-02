@@ -22,7 +22,7 @@ This can achieved by sending the following line through the text input:
 <script> document.getElementById('giveflag').click() </script>
 ```
 
-![Page](imgs/page1.jpg)
+![Page](imgs/beg1.jpg)
 
 >And then we obtain our flag!
 
@@ -50,23 +50,28 @@ Let's try with the following input to see if works:
 ; ls
 ```
 
-![LS Test](imgs/ls.png)
+![ls](imgs/ping1.jpg)
 
-> It works! That means the text isn't being sanitized.
+> It works! That means the text input isn't being sanitized.
 
 We were told the flag was in /flags/flag.txt, but I looked for it anyways.
 And it was in that folder indeed.
 
-![cd](imgs/cd.png)
+
+![flags](imgs/ping2.jpg)
 
 ### **Attack**
 
-Now, we only need to print the flag. We can achieve this with the following payload.
+Now, we only need to print the flag. We can achieve this with any of the following payloads.
+
 
 ```bash
 ; cat /flags/flag.txt
+; cd /flags; cat flag.txt
 ```
+
+![cd](imgs/ping3.jpg)
 
 > And obtained our second desired flag!
 
-![Flag2](imgs/flag2.png)
+![Flag2](imgs/flag2.jpg)
