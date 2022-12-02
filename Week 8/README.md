@@ -4,7 +4,7 @@
 
 **Goal:** Login into the admin account in order to get the flag.
 
-**Program analysis**
+**Website analysis**
 
 We are given the [index.php](Semana8-Desafio1/index.php) file of out website. Let's start by analysing the php code.
 
