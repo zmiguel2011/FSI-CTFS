@@ -6,7 +6,7 @@
 
 **Program analysis**
 
-We are given a cypher that has been encripted with a RSA function. We know that the public *e* is 0x10001 and we are also told that *p* and *q* the next primes of 2**512 and 2**513, respectively.
+We are given a cypher that has been encripted with a RSA function. We know that the public *e* is 0x10001 and we are also told that *p* and *q* the next primes of 2^512 and 2^513, respectively.
 
 >So, in order to 'crack' our flag, we need to:
 - Find the values of *p* and *q*, so we can obtain **n** and **d**
@@ -22,7 +22,7 @@ To find the next primes of a number x, we could write a function to perform that
 
 ![Prime1](imgs/prime1.png)
 
-![Prime2](imgs/prime1.png)
+![Prime2](imgs/prime2.png)
 
 > We can now calculate n which is p * q
 
@@ -137,6 +137,6 @@ print(flag.decode())
 ```
 
 
-> And obtained our second desired flag!
+> And obtain our second desired flag!
 
 ![Flag2](imgs/flag2.png)
